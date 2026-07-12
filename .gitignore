@@ -1,0 +1,22 @@
+# Environments
+venv/
+venv311/
+.env
+
+# Data
+data/
+*.bin
+*.txt
+
+# Models
+models/
+*.pt
+
+# Python caches
+__pycache__/
+*.pyc
+
+# IDEs
+.idea/
+.vscode/
+.gemini/
