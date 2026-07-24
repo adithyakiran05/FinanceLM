@@ -1,0 +1,14 @@
+requests
+pandas
+beautifulsoup4
+lxml
+tqdm
+sec-edgar-downloader
+trafilatura
+datasets
+yfinance
+pymupdf
+torch
+transformers
+tokenizers
+accelerate 
