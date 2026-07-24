@@ -7,16 +7,16 @@ from torch.nn import functional as F
 from pathlib import Path
 from transformers import PreTrainedTokenizerFast
 
-# Hyperparameters for ~15M parameter Small Language Model
+# Hyperparameters for 124M parameter (GPT-2 Small) Language Model
 vocab_size = 32000
-n_embd = 256
-n_layer = 8
-n_head = 8
+n_embd = 768
+n_layer = 12
+n_head = 12
 block_size = 512
 dropout = 0.1
-batch_size = 16
+batch_size = 8
 learning_rate = 3e-4
-max_iters = 1000
+max_iters = 60000
 
 class Head(nn.Module):
     """ One head of self-attention """
